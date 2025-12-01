@@ -8,6 +8,7 @@ export default defineConfig({
   use: {
     baseURL: "https://www.saucedemo.com",
     headless: false,
+    slowMo: 1000,
     viewport: null,
     screenshot: "only-on-failure",
     video: "on",
